@@ -1,0 +1,18 @@
+{
+  "name": "jest-extended-bug-repro-548",
+  "version": "1.0.0",
+  "description": "bug-repro",
+  "scripts": {
+    "start": "npm run ts-check",
+    "build": "rm -rf dist; tsc",
+    "test": "vitest run",
+    "ts-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "jest-extended": "^3.2.1",
+    "ts-node": "^10.9.1",
+    "typescript": "4.9.4",
+    "vitest": "^0.26.3"
+  },
+  "license": "ISC"
+}
